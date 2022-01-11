@@ -1,3 +1,3 @@
-# DeepRL-for-Hanabi
+# Deep RL for Hanabi
 
 Code coming soon.
