@@ -2,7 +2,8 @@
 
 This is the repository for the project: Deep Reinforcement Learning for the cooperative card game Hanabi, 
 by Bram Grooten and his master thesis supervisors: Jelle Wemmenhove, Maurice Poot, and Jim Portegies. 
-The code builds upon the [Hanabi Learning Environment](https://github.com/deepmind/hanabi-learning-environment) provided by DeepMind. 
+Read the [corresponding paper here](https://github.com/bramgrooten/DeepRL-for-Hanabi/blob/6d809f65cdae6c7fda360192cce718d8dbe92f78/Hanabi_paper_with_appendix.pdf).
+Our code builds upon the [Hanabi Learning Environment](https://github.com/deepmind/hanabi-learning-environment) provided by DeepMind. 
 
 ## Folder structure of this repository
 ```
@@ -22,6 +23,7 @@ hanabi_learning_environment/        # the actual HLE
     rl_env_adjusted.py              # some adjustments added by us
 
 .gitignore                          # for git
+Hanabi_paper_with_appendix.pdf      # the paper corresponding to this project
 README.md                           # this file
 requirements.txt                    # packages that need to be installed
 
