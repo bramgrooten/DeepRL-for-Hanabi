@@ -34,7 +34,7 @@ pyproject.toml
 setup.py
 ```
 
-## Install
+## How to install
 
 You need some version of Linux to be able to run this. A Windows Subsystem for Linux (WSL) works as well. 
 See an installation guide for WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10). 
