@@ -1,0 +1,13 @@
+out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates
+standard,-10,standard,standard,[32],Tanh,500,0.99,0.001
+standard,-10,standard,standard,[32],ReLU,500,0.99,0.001
+standard,-10,standard,standard,[64],Tanh,500,0.99,0.001
+standard,-10,standard,standard,[64],ReLU,500,0.99,0.001
+standard,-10,standard,standard,[128],Tanh,500,0.99,0.001
+standard,-10,standard,standard,[128],ReLU,500,0.99,0.001
+standard,-10,standard,-0.05,[32],Tanh,500,0.99,0.001
+standard,-10,standard,-0.05,[32],ReLU,500,0.99,0.001
+standard,-10,standard,-0.05,[64],Tanh,500,0.99,0.001
+standard,-10,standard,-0.05,[64],ReLU,500,0.99,0.001
+standard,-10,standard,-0.05,[128],Tanh,500,0.99,0.001
+standard,-10,standard,-0.05,[128],ReLU,500,0.99,0.001

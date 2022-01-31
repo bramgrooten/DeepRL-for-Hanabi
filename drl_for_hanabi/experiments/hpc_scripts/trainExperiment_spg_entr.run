@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#SBATCH --partition=mcs.default.q
+
+# Where to print the output. This gets replaced by trainAllExps.run though
+#SBATCH --output=output/outputStandard.txt
+
+# Setting a maximum run time
+#SBATCH --time=7-00:00:00
+
+# Setting the name. This gets replaced by trainAllExps.run though
+#SBATCH --job-name=Hanabi
+
+
+python3 ../run_exp/continue_experiment_spg_entr.py $expnum
+

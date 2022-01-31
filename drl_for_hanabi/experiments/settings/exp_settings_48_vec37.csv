@@ -1,0 +1,49 @@
+out of lives,illegal move,lost one life,discard,layers,batch_sizes,gammas,learning_rates
+standard,-10,standard,standard,[32],500,0.99,0.1
+standard,-10,standard,standard,[32],500,0.99,0.01
+standard,-10,standard,standard,[32],500,0.99,0.001
+standard,-10,standard,standard,[64],500,0.99,0.1
+standard,-10,standard,standard,[64],500,0.99,0.01
+standard,-10,standard,standard,[64],500,0.99,0.001
+standard,-10,standard,standard,[128],500,0.99,0.1
+standard,-10,standard,standard,[128],500,0.99,0.01
+standard,-10,standard,standard,[128],500,0.99,0.001
+standard,-10,standard,standard,"[64, 64]",500,0.99,0.1
+standard,-10,standard,standard,"[64, 64]",500,0.99,0.01
+standard,-10,standard,standard,"[64, 64]",500,0.99,0.001
+standard,-10,standard,-0.05,[32],500,0.99,0.1
+standard,-10,standard,-0.05,[32],500,0.99,0.01
+standard,-10,standard,-0.05,[32],500,0.99,0.001
+standard,-10,standard,-0.05,[64],500,0.99,0.1
+standard,-10,standard,-0.05,[64],500,0.99,0.01
+standard,-10,standard,-0.05,[64],500,0.99,0.001
+standard,-10,standard,-0.05,[128],500,0.99,0.1
+standard,-10,standard,-0.05,[128],500,0.99,0.01
+standard,-10,standard,-0.05,[128],500,0.99,0.001
+standard,-10,standard,-0.05,"[64, 64]",500,0.99,0.1
+standard,-10,standard,-0.05,"[64, 64]",500,0.99,0.01
+standard,-10,standard,-0.05,"[64, 64]",500,0.99,0.001
+standard,-10,-2,standard,[32],500,0.99,0.1
+standard,-10,-2,standard,[32],500,0.99,0.01
+standard,-10,-2,standard,[32],500,0.99,0.001
+standard,-10,-2,standard,[64],500,0.99,0.1
+standard,-10,-2,standard,[64],500,0.99,0.01
+standard,-10,-2,standard,[64],500,0.99,0.001
+standard,-10,-2,standard,[128],500,0.99,0.1
+standard,-10,-2,standard,[128],500,0.99,0.01
+standard,-10,-2,standard,[128],500,0.99,0.001
+standard,-10,-2,standard,"[64, 64]",500,0.99,0.1
+standard,-10,-2,standard,"[64, 64]",500,0.99,0.01
+standard,-10,-2,standard,"[64, 64]",500,0.99,0.001
+standard,-10,-2,-0.05,[32],500,0.99,0.1
+standard,-10,-2,-0.05,[32],500,0.99,0.01
+standard,-10,-2,-0.05,[32],500,0.99,0.001
+standard,-10,-2,-0.05,[64],500,0.99,0.1
+standard,-10,-2,-0.05,[64],500,0.99,0.01
+standard,-10,-2,-0.05,[64],500,0.99,0.001
+standard,-10,-2,-0.05,[128],500,0.99,0.1
+standard,-10,-2,-0.05,[128],500,0.99,0.01
+standard,-10,-2,-0.05,[128],500,0.99,0.001
+standard,-10,-2,-0.05,"[64, 64]",500,0.99,0.1
+standard,-10,-2,-0.05,"[64, 64]",500,0.99,0.01
+standard,-10,-2,-0.05,"[64, 64]",500,0.99,0.001

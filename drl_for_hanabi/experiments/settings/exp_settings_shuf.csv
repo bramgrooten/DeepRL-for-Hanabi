@@ -1,0 +1,9 @@
+num_exp,out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates,obs_vec_type,num_actions,entropy_coeff,renormalize_gt,life_tokens,hint_tokens,shuffle_hand,epsilon_start,epsilon_decay_type,epsilon_low_at_epoch,epsilon_low
+0,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.0,True,3,8,True,0,exponential,100000,0.001
+1,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.0,True,3,8,False,0,exponential,100000,0.001
+2,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.0,False,3,8,True,0,exponential,100000,0.001
+3,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.0,False,3,8,False,0,exponential,100000,0.001
+4,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.01,True,3,8,True,0,exponential,100000,0.001
+5,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.01,True,3,8,False,0,exponential,100000,0.001
+6,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.01,False,3,8,True,0,exponential,100000,0.001
+7,standard,-0.5,standard,standard,"[64, 64]",Tanh,1000,0.99,0.001,62,11,0.01,False,3,8,False,0,exponential,100000,0.001

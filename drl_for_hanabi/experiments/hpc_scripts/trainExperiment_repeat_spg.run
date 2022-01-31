@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+#SBATCH --partition=mcs.default.q
+
+# Where to print the output (this name will be overwritten when called from a trainAllExps file)
+#SBATCH --output=output/outputStandard.txt
+
+# Setting a maximum run time
+#SBATCH --time=7-00:00:00
+
+# Setting the name (this name will be overwritten when called from a trainAllExps file)
+#SBATCH --job-name=Hanabi
+
+# Loading CUDA (uncomment line below when using GPU)
+# module load cuda10.2/toolkit/10.2.89
+
+# Limit number of threads various libraries can use
+export OMP_NUM_THREADS=1 # openmp
+export OPENBLAS_NUM_THREADS=1 # openblas
+export MKL_NUM_THREADS=1 # mkl
+export VECLIB_MAXIMUM_THREADS=1 # accelerate
+export NUMEXPR_NUM_THREADS=1 # numexpr
+
+# Running the experiment
+python3 ../run_exp/continue_experiment_repeat_spg.py $expnum $runtime $session

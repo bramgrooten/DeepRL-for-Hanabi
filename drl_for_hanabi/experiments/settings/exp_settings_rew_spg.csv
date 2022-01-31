@@ -1,0 +1,5 @@
+num_exp,success play,illegal move,out of lives,lost one life,discard,play,hint,discard playable card,discard useless card,discard unique card,layers,activation,batch_size,gamma,learning_rate,train_iters,obs_vec_type,num_actions,entropy_coeff,renormalize_gt,life_tokens,hint_tokens,shuffle_hand,epsilon_start,epsilon_decay_type,epsilon_low_at_epoch,epsilon_low
+0,2,-1,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,"[64, 64]",Tanh,1000,0.99,0.001,1,136,11,0.01,True,3,8,False,0,exponential,100000,0.001
+1,5,-1,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,"[64, 64]",Tanh,1000,0.99,0.001,1,136,11,0.01,True,3,8,False,0,exponential,100000,0.001
+2,10,-1,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,"[64, 64]",Tanh,1000,0.99,0.001,1,136,11,0.01,True,3,8,False,0,exponential,100000,0.001
+3,100,-1,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,"[64, 64]",Tanh,1000,0.99,0.001,1,136,11,0.01,True,3,8,False,0,exponential,100000,0.001

@@ -1,0 +1,81 @@
+num_exp,out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates,obs_vec_type,num_actions,epsilon_start,epsilon_decay_type,epsilon_low_at_epoch,epsilon_low
+0,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.5,exponential,10000,0.001
+1,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.5,exponential,1000000,0.001
+2,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.5,linear,10000,0.001
+3,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.5,linear,1000000,0.001
+4,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.5,no,10000,0.001
+5,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.05,exponential,10000,0.001
+6,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.05,exponential,1000000,0.001
+7,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.05,linear,10000,0.001
+8,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.05,linear,1000000,0.001
+9,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,11,0.05,no,10000,0.001
+10,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.5,exponential,10000,0.001
+11,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.5,exponential,1000000,0.001
+12,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.5,linear,10000,0.001
+13,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.5,linear,1000000,0.001
+14,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.5,no,10000,0.001
+15,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.05,exponential,10000,0.001
+16,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.05,exponential,1000000,0.001
+17,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.05,linear,10000,0.001
+18,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.05,linear,1000000,0.001
+19,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,11,0.05,no,10000,0.001
+20,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.5,exponential,10000,0.001
+21,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.5,exponential,1000000,0.001
+22,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.5,linear,10000,0.001
+23,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.5,linear,1000000,0.001
+24,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.5,no,10000,0.001
+25,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.05,exponential,10000,0.001
+26,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.05,exponential,1000000,0.001
+27,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.05,linear,10000,0.001
+28,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.05,linear,1000000,0.001
+29,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,37,11,0.05,no,10000,0.001
+30,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.5,exponential,10000,0.001
+31,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.5,exponential,1000000,0.001
+32,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.5,linear,10000,0.001
+33,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.5,linear,1000000,0.001
+34,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.5,no,10000,0.001
+35,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.05,exponential,10000,0.001
+36,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.05,exponential,1000000,0.001
+37,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.05,linear,10000,0.001
+38,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.05,linear,1000000,0.001
+39,standard,-10,standard,standard,"[32, 32, 32, 32, 32, 32, 32, 32]",Tanh,500,0.99,0.001,62,11,0.05,no,10000,0.001
+40,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.5,exponential,10000,0.001
+41,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.5,exponential,1000000,0.001
+42,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.5,linear,10000,0.001
+43,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.5,linear,1000000,0.001
+44,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.5,no,10000,0.001
+45,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.05,exponential,10000,0.001
+46,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.05,exponential,1000000,0.001
+47,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.05,linear,10000,0.001
+48,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.05,linear,1000000,0.001
+49,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,11,0.05,no,10000,0.001
+50,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.5,exponential,10000,0.001
+51,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.5,exponential,1000000,0.001
+52,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.5,linear,10000,0.001
+53,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.5,linear,1000000,0.001
+54,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.5,no,10000,0.001
+55,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.05,exponential,10000,0.001
+56,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.05,exponential,1000000,0.001
+57,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.05,linear,10000,0.001
+58,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.05,linear,1000000,0.001
+59,standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,11,0.05,no,10000,0.001
+60,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.5,exponential,10000,0.001
+61,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.5,exponential,1000000,0.001
+62,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.5,linear,10000,0.001
+63,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.5,linear,1000000,0.001
+64,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.5,no,10000,0.001
+65,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.05,exponential,10000,0.001
+66,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.05,exponential,1000000,0.001
+67,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.05,linear,10000,0.001
+68,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.05,linear,1000000,0.001
+69,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,37,11,0.05,no,10000,0.001
+70,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.5,exponential,10000,0.001
+71,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.5,exponential,1000000,0.001
+72,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.5,linear,10000,0.001
+73,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.5,linear,1000000,0.001
+74,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.5,no,10000,0.001
+75,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.05,exponential,10000,0.001
+76,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.05,exponential,1000000,0.001
+77,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.05,linear,10000,0.001
+78,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.05,linear,1000000,0.001
+79,standard,-10,standard,standard,"[64, 64, 64, 64, 64, 64, 64, 64]",Tanh,500,0.99,0.001,62,11,0.05,no,10000,0.001

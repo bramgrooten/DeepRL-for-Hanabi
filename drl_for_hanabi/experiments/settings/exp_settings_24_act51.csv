@@ -1,0 +1,25 @@
+out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates,obs_vec_type,num_actions
+standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,37,51
+standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,62,51
+standard,-10,standard,standard,[32],Tanh,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[32],Tanh,500,0.99,0.0001,62,51
+standard,-10,standard,standard,[32],ReLU,500,0.99,0.001,37,51
+standard,-10,standard,standard,[32],ReLU,500,0.99,0.001,62,51
+standard,-10,standard,standard,[32],ReLU,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[32],ReLU,500,0.99,0.0001,62,51
+standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,37,51
+standard,-10,standard,standard,[64],Tanh,500,0.99,0.001,62,51
+standard,-10,standard,standard,[64],Tanh,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[64],Tanh,500,0.99,0.0001,62,51
+standard,-10,standard,standard,[64],ReLU,500,0.99,0.001,37,51
+standard,-10,standard,standard,[64],ReLU,500,0.99,0.001,62,51
+standard,-10,standard,standard,[64],ReLU,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[64],ReLU,500,0.99,0.0001,62,51
+standard,-10,standard,standard,[128],Tanh,500,0.99,0.001,37,51
+standard,-10,standard,standard,[128],Tanh,500,0.99,0.001,62,51
+standard,-10,standard,standard,[128],Tanh,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[128],Tanh,500,0.99,0.0001,62,51
+standard,-10,standard,standard,[128],ReLU,500,0.99,0.001,37,51
+standard,-10,standard,standard,[128],ReLU,500,0.99,0.001,62,51
+standard,-10,standard,standard,[128],ReLU,500,0.99,0.0001,37,51
+standard,-10,standard,standard,[128],ReLU,500,0.99,0.0001,62,51

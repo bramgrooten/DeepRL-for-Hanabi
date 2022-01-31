@@ -1,0 +1,3 @@
+num_exp,illegal move,out of lives,lost one life,discard,play,hint,discard playable card,discard useless card,discard unique card,lr_pi,hidden_layers_pi,activation_pi,train_pi_iters,lr_vf,hidden_layers_vf,activation_vf,train_vf_iters,gamma,batch_size,entropy_coeff,renormalize_adv,adv_type,lambda,obs_vec_type,num_actions,life_tokens,hint_tokens,epsilon_start,epsilon_decay_type,epsilon_low_at_epoch,epsilon_low
+0,-0.5,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,0.001,"[100, 100, 50]",Tanh,1,0.0003,"[100, 50, 25]",Tanh,5,0.99,1000,0.01,True,gae,0.95,136,11,3,8,0,exponential,100000,0.001
+1,-0.5,standard,-0.1,standard,0.02,-0.02,-0.1,0.1,-0.1,0.0001,"[100, 100, 50]",Tanh,1,0.0003,"[100, 50, 25]",Tanh,5,0.99,1000,0.01,True,gae,0.95,136,11,3,8,0,exponential,100000,0.001

@@ -1,0 +1,17 @@
+num_exp,out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates,obs_vec_type,num_actions
+0,standard,-10,standard,standard,[16],Tanh,1,0.99,0.001,7,11
+1,standard,-10,standard,standard,[16],Tanh,500,0.99,0.001,7,11
+2,standard,-10,standard,standard,[16],ReLU,1,0.99,0.001,7,11
+3,standard,-10,standard,standard,[16],ReLU,500,0.99,0.001,7,11
+4,standard,-10,standard,standard,[32],Tanh,1,0.99,0.001,7,11
+5,standard,-10,standard,standard,[32],Tanh,500,0.99,0.001,7,11
+6,standard,-10,standard,standard,[32],ReLU,1,0.99,0.001,7,11
+7,standard,-10,standard,standard,[32],ReLU,500,0.99,0.001,7,11
+8,standard,-10,standard,standard,"[16, 16]",Tanh,1,0.99,0.001,7,11
+9,standard,-10,standard,standard,"[16, 16]",Tanh,500,0.99,0.001,7,11
+10,standard,-10,standard,standard,"[16, 16]",ReLU,1,0.99,0.001,7,11
+11,standard,-10,standard,standard,"[16, 16]",ReLU,500,0.99,0.001,7,11
+12,standard,-10,standard,standard,"[32, 32]",Tanh,1,0.99,0.001,7,11
+13,standard,-10,standard,standard,"[32, 32]",Tanh,500,0.99,0.001,7,11
+14,standard,-10,standard,standard,"[32, 32]",ReLU,1,0.99,0.001,7,11
+15,standard,-10,standard,standard,"[32, 32]",ReLU,500,0.99,0.001,7,11

@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+
+exps_to_continue=( 0 1 2 3 4 )
+for i in "${exps_to_continue[@]}"
+do
+  sbatch --export=ALL,expnum=${i},runtime=${1},session=${2} --job-name=${i}rppoHanabi --output=output/repeat_ppo_s${2}_exp${i}.txt trainExperiment_repeat_ppo.run
+  echo "Run experiment repeat_ppo $i"
+done
+
+

@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+# exps_to_continue=( 0 )
+# for i in "${exps_to_continue[@]}"
+# do
+#   sbatch --export=ALL,expnum=${i},runtime=${1},session=${2} --job-name=${i}bppoHanabi --output=output/big_ppo_s${2}_exp${i}.txt trainExperiment_big_ppo_gpu.run
+#   echo "Run experiment $i"
+# done
+
+
+exps_to_continue_also=( 0 1 2 3 4 5 )
+for i in "${exps_to_continue_also[@]}"
+do
+  sbatch --export=ALL,expnum=${i},runtime=${1},session=${2} --job-name=${i}bppoHanabi --output=output/big_ppo_s${2}_exp${i}.txt trainExperiment_big_ppo.run
+  echo "Run experiment $i"
+done
+
+

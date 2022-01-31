@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+#SBATCH --partition=mcs.default.q
+
+# Where to print the output
+#SBATCH --output=output/output20210106_vec62_s12.txt
+
+# Setting a maximum run time
+#SBATCH --time=7-00:00:00
+
+# Setting the name
+#SBATCH --job-name=Hanabi
+
+
+nr_exps=12
+
+for i in `seq 0 $(($nr_exps-1))`
+do
+  sbatch --export=ALL,expnum=$i --job-name=${i}v62Hanabi --output=output/20210106_vec62_s12_exp${i}.txt trainExperiment_vec62.run
+  echo "Run experiment $i"
+done
+
+
+

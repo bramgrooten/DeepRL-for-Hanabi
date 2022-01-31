@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+#SBATCH --partition=mcs.gpu.q
+# #SBATCH --constraint=v100
+#SBATCH --gres=gpu:1
+
+# Where to print the output
+#SBATCH --output=output/outputStandard.txt
+
+# Setting a maximum run time
+#SBATCH --time=7-00:00:00
+
+# Setting the name
+#SBATCH --job-name=Hanabi
+
+# Loading CUDA
+module load cuda10.2/toolkit/10.2.89
+
+# limit number of threads various libraries can use
+export OMP_NUM_THREADS=1 # openmp
+export OPENBLAS_NUM_THREADS=1 # openblas
+export MKL_NUM_THREADS=1 # mkl
+export VECLIB_MAXIMUM_THREADS=1 # accelerate
+export NUMEXPR_NUM_THREADS=1 # numexpr
+
+# Running the experiment
+python3 ../run_exp/continue_experiment_big_vpg.py $expnum $runtime $session

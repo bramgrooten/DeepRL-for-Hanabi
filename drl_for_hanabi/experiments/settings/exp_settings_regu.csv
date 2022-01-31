@@ -1,0 +1,28 @@
+num_exp,out of lives,illegal move,lost one life,discard,layers,activation,batch_sizes,gammas,learning_rates,weight_decay,drop_rate,obs_vec_type,num_actions
+0,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.0,0.0,37,11
+1,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.0,0.2,37,11
+2,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.0,0.5,37,11
+3,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.001,0.0,37,11
+4,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.001,0.2,37,11
+5,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.001,0.5,37,11
+6,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.01,0.0,37,11
+7,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.01,0.2,37,11
+8,standard,-10,standard,standard,[32],Tanh,100,0.99,0.001,0.01,0.5,37,11
+9,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.0,0.0,37,11
+10,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.0,0.2,37,11
+11,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.0,0.5,37,11
+12,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.001,0.0,37,11
+13,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.001,0.2,37,11
+14,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.001,0.5,37,11
+15,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.01,0.0,37,11
+16,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.01,0.2,37,11
+17,standard,-10,standard,standard,"[32, 32]",Tanh,100,0.99,0.001,0.01,0.5,37,11
+18,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.0,0.0,37,11
+19,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.0,0.2,37,11
+20,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.0,0.5,37,11
+21,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.001,0.0,37,11
+22,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.001,0.2,37,11
+23,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.001,0.5,37,11
+24,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.01,0.0,37,11
+25,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.01,0.2,37,11
+26,standard,-10,standard,standard,"[32, 32, 32]",Tanh,100,0.99,0.001,0.01,0.5,37,11

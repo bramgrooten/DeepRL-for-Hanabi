@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+#SBATCH --partition=mcs.default.q
+
+# Where to print the output
+#SBATCH --output=output/output_20210126_epsi_s3.txt
+
+# Setting a maximum run time
+#SBATCH --time=10-00:00:00
+
+# Setting the name
+#SBATCH --job-name=Hanabi
+
+
+nr_exps=80
+
+for i in `seq 0 $(($nr_exps-1))`
+do
+  sbatch --export=ALL,expnum=$i --job-name=${i}epsHanabi --output=output/20210126_epsi_s3_exp${i}.txt trainExperiment_epsi.run
+  echo "Run experiment $i"
+done
+
+
+

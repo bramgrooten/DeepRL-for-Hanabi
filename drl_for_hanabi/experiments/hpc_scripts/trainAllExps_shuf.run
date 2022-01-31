@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+# call with "bash trainAll..."
+
+# nr_exps=8
+# for i in `seq 0 $(($nr_exps-1))`
+
+exps_to_continue=( 5 )
+for i in "${exps_to_continue[@]}"
+do
+  sbatch --export=ALL,expnum=${i},runtime=${1},session=${2} --job-name=${i}shufHanabi --output=output/shuf_s${2}_exp${i}.txt trainExperiment_shuf.run
+  echo "Run experiment $i"
+done
+
+
+
