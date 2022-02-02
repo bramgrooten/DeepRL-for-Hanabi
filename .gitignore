@@ -2,8 +2,7 @@
 ## added by Bram:
 venv-hanabi/
 .idea/
-hanabi-learning-environment/_skbuild/
-hanabi-learning-environment/Bram/Experiments/plots/202*
+_skbuild/
 ## from DeepMind's HLE:
 *.pyc
 
