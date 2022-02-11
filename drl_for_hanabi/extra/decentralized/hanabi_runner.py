@@ -2,6 +2,7 @@
 A simple episode runner using the RL environment.
 by Bram Grooten
 """
+import torch
 from hanabi_learning_environment import rl_env_adjusted
 from agents.human_player.human_player import HumanPlayer
 from agents.rule_based.bram_simple_agent import BramSimpleAgent
@@ -46,6 +47,14 @@ class Runner(object):
                        "max_life_tokens": 3}
         self.environment = rl_env_adjusted.make(obs_type="CHEAT", config=game_config)
         self.agents = agents_config
+        print()
+        for idx, agent in enumerate(self.agents):
+            name = agent.__class__.__name__
+            print(f'Agent {idx} is {name}')
+            rl_agents = ['SPG', 'VPG', 'PPO']
+            if any(algo in name for algo in rl_agents):
+                agent.device = torch.device('cpu')
+                agent.policy_network.to(torch.device('cpu'))
 
     def run(self, nr_episodes=1):
         """Run episodes."""
